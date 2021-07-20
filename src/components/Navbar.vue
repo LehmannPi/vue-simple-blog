@@ -1,6 +1,7 @@
 <template>
     <header>
         <h1>The Dojo</h1>
+        <!-- Fazer transição de telas com swipe de Firebase -->
         <nav>
             <router-link :to="{ name: 'Home' }">Home</router-link>
             <router-link :to="{ name: 'Create' }">Create post</router-link>
